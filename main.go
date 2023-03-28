@@ -78,4 +78,11 @@ func main() {
 	} else {
 		fmt.Println("You are not over 25")
 	}
+
+	// looping
+	i := 1
+	for i < 10{
+		fmt.Println(i)
+		i++ 
+	}
 }
