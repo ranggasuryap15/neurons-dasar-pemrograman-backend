@@ -64,4 +64,18 @@ func main() {
 		fmt.Println("So Bad wkwk")
 	}
 	fmt.Println("End")
+
+	// condition bersarang atau nested condition
+	menikah := false
+	umurnya := 25
+
+	if umurnya > 25 {
+		if menikah {
+			fmt.Println("You are married and over 25")
+		} else {
+			fmt.Println("You are not married and over 25")
+		}
+	} else {
+		fmt.Println("You are not over 25")
+	}
 }
