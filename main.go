@@ -35,4 +35,10 @@ func main() {
 	var bigNum = int64(angka)
 	var floatNum = float64(bigNum)
 	fmt.Println(floatNum)
+
+	// convert angka ke string
+	var hurufA int8 = 65
+	s := fmt.Sprint(hurufA)
+	// b := string(hurufA)
+	fmt.Println(s)
 }
