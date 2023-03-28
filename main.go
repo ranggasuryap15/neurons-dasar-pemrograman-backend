@@ -41,4 +41,27 @@ func main() {
 	s := fmt.Sprint(hurufA)
 	// b := string(hurufA)
 	fmt.Println(s)
+
+	// condition simple
+	score := 80
+	if score > 75 {
+		fmt.Println("Good")
+	}
+
+	// condition if else 
+	if score > 75 {
+		fmt.Println("Good")
+	} else {
+		fmt.Println("Bad")
+	}
+	
+	// condition if else if
+	if score > 75 {
+		fmt.Println("Good")
+	} else if score < 75 {
+		fmt.Println("Bad")
+	} else {
+		fmt.Println("So Bad wkwk")
+	}
+	fmt.Println("End")
 }
