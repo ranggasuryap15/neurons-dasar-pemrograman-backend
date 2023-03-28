@@ -29,4 +29,10 @@ func main() {
 	fmt.Println(myAddress)
 	fmt.Println(MyFamily)
 
+	// convert data type
+	var angka int32 = 8
+	
+	var bigNum = int64(angka)
+	var floatNum = float64(bigNum)
+	fmt.Println(floatNum)
 }
